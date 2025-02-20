@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.restaurant.restaurantmanagement.Cashier.Login"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label fx:id="statusLabel" layoutX="200" layoutY="50" text="Welcome to the Restaurant System"/>
+        <TextField fx:id="usernameField" layoutX="200" layoutY="100" promptText="Username"/>
+        <TextField fx:id="passwordField" layoutX="200" layoutY="150" promptText="Password"/>
+        <Button fx:id="loginButton" layoutX="250" layoutY="200" text="Login"/>
+    </children>
+</AnchorPane>
